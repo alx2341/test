@@ -11,7 +11,6 @@ import (
     //"syscall"
 )
 
-//(echo "$(curl -s https://golang.org)" | tr -d "\r\n" ; echo "\r\n"; echo "$(curl -s https://golang.org)" | tr -d "\r\n") | go run main.go
 func main() {
 
 	var numCPU = runtime.NumCPU()
